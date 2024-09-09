@@ -173,3 +173,82 @@ ul.links li:not(:last-child) {
     opacity: 0;
   }
 }
+
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 16px;
+    padding: 20px;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  .my-photo {
+    width: 100px;
+  }
+  .sosmed {
+    flex-direction: column;
+    align-items: center;
+  }
+  .sosmed a {
+    margin-bottom: 10px;
+  }
+
+  .links {
+    margin-top: 20px;
+  }
+  .link-card {
+    flex-direction: column;
+    align-items: center;
+  }
+  .link-icon {
+    margin-bottom: 10px;
+  }
+  .link-text {
+    text-align: center;
+  }
+}
+.bg-text-animation {
+  font-size: 6rem;
+  top: 10rem;
+}
+.copyright {
+  margin-top: 20px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.link-card {
+  box-shadow: none;
+  border: none;
+  padding: 20px;
+}
+
+.link-icon {
+  background-image: none;
+  padding: 10px;
+}
+
+.link-text {
+  font-size: 16px;
+}
+
+.link-action {
+  font-size: 16px;
+}
